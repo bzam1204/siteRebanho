@@ -39,7 +39,11 @@
     background-color:var(--fundo-branco) ;
 }
 
-.membresia h2 {
+.blog {
+    
+}
+
+.titulo__seçao {
     margin: 2rem 0;
     text-align: center;
     font-family:var(--montserrat);
@@ -49,11 +53,11 @@
     color:var(--verde-escuro);
 }
 
-.membresia img{
+.imagem__seçao{
     width:100vw;
 }
 
-.membresia p {
+.paragrafo__seçao {
     padding: .5rem 1rem;
     font-family:var(--montserrat);
 }
