@@ -31,14 +31,14 @@
 
 .menu__navegaçao li{
     display: inline-block;
-    font-size: 1.1rem;
+    font-size: 1.32rem;
+    font-weight: 400;
     margin: 0 .7rem 1.25rem;
     font-family:var(--montserrat)
 }
 
 .membresia {
-    background-color:var(--fundo-branco) ;
-    position:relative;
+    background-color:var(--fundo-branco);
     text-align: center;    
 }
 
