@@ -17,6 +17,7 @@
 
 .nome__igreja {
     font-size: 2rem;
+    font-weight:700;
     color: var(--verde-escuro);
     font-family:var(--montserrat);
     text-align: center;
