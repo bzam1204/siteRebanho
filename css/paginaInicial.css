@@ -1,0 +1,59 @@
+:root {
+    --preto: #000000;
+    --verde-claro: #AFA;
+    --verde-escuro: #241;
+    --montserrat:'Montserrat', sans-serif;
+    --fundo-branco: #fefefe;
+}
+
+.header {
+    background-color: var(--verde-claro);
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .75rem 0;
+}
+
+.nome__igreja {
+    font-size: 2rem;
+    color: var(--verde-escuro);
+    font-family:var(--montserrat);
+    text-align: center;
+    line-height:3rem;
+}
+
+.menu__navegaçao {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.menu__navegaçao li{
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 0 .7rem 1.25rem;
+    font-family:var(--montserrat)
+}
+
+.membresia {
+    background-color:var(--fundo-branco) ;
+}
+
+.membresia h2 {
+    margin: 2rem 0;
+    text-align: center;
+    font-family:var(--montserrat);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color:var(--verde-escuro);
+}
+
+.membresia img{
+    width:100vw;
+}
+
+.membresia p {
+    padding: .5rem 1rem;
+    font-family:var(--montserrat);
+}
