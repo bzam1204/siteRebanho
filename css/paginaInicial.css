@@ -20,7 +20,7 @@
     color: var(--verde-escuro);
     font-family:var(--montserrat);
     text-align: center;
-    line-height:3rem;
+    line-height:3rem;    
 }
 
 .menu__navegaçao {
@@ -37,8 +37,14 @@
 
 .membresia {
     background-color:var(--fundo-branco) ;
+    position:relative;
+    text-align: center;    
 }
 
+ .blog {
+     text-align: center;
+ }
+ 
 .titulo__seçao {
     margin: 2rem 0;
     text-align: center;
@@ -49,8 +55,9 @@
     color:var(--verde-escuro);
 }
 
-.imagem__seçao{
+.imagem__seçao {
     width:100vw;
+    max-width: 720px;
 }
 
 .paragrafo__seçao {
