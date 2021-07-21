@@ -3,7 +3,12 @@
     --verde-claro: #AFA;
     --verde-escuro: #241;
     --montserrat:'Montserrat', sans-serif;
+    --open: 'Open Sans', sans-serif;
     --fundo-branco: #fefefe;
+}
+
+body {
+    font-family:var(--montserrat);
 }
 
 .header {
@@ -44,6 +49,7 @@
 
  .blog {
      text-align: center;
+     margin-bottom:2rem;
  }
  
 .titulo__seçao {
@@ -62,6 +68,26 @@
 }
 
 .paragrafo__seçao {
+    font-size:0.9rem;
+    font-weight:400;
     padding: .5rem 1rem;
-    font-family:var(--montserrat);
+    font-family:var(--open);
+    margin-bottom: 1rem;
+}
+
+.blog a p {
+    border-color:var(--verde-escuro);
+    color:var(--verde-escuro);
+    margin-top:1rem;
+}
+
+.botao {
+    display: inline-block;
+    width:80vw;
+    font-size:0.9rem;
+    line-height:2.7rem;
+    max-width: 350px;
+    padding-bottom: 2px;
+    border: 1px solid;
+    border-radius:8px;
 }
