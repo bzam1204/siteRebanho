@@ -5,6 +5,7 @@
     --montserrat:'Montserrat', sans-serif;
     --open: 'Open Sans', sans-serif;
     --fundo-branco: #fefefe;
+    --width__img: 100vw;
 }
 
 body {
@@ -42,13 +43,9 @@ body {
     font-family:var(--montserrat)
 }
 
-.membresia {
-    background-color:var(--fundo-branco);
-    text-align: center;    
-}
-
- .blog {
+ .secao {
      text-align: center;
+     margin-top:2rem;
      margin-bottom:2rem;
  }
  
@@ -63,7 +60,8 @@ body {
 }
 
 .imagem__seçao {
-    width:100vw;
+    width:var(--width__img);
+    height: calc(var(--width__img)/2);
     max-width: 720px;
 }
 
@@ -90,4 +88,5 @@ body {
     padding-bottom: 2px;
     border: 1px solid;
     border-radius:8px;
+    margin: 0;
 }
