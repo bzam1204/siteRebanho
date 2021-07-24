@@ -73,12 +73,6 @@ body {
     margin-bottom: 1rem;
 }
 
-.blog a p {
-    border-color:var(--verde-escuro);
-    color:var(--verde-escuro);
-    margin-top:1rem;
-}
-
 .botao {
     display: inline-block;
     width:80vw;
@@ -86,7 +80,12 @@ body {
     line-height:2.7rem;
     max-width: 350px;
     padding-bottom: 2px;
-    border: 1px solid;
+    border: #241 1px solid;
+    color:#241;
     border-radius:8px;
     margin: 0;
+    border-color:var(--verde-escuro);
+    color:var(--verde-escuro);
+    margin-top:1rem;
+    margin-bottom: 1rem;
 }
