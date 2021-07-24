@@ -89,3 +89,21 @@ body {
     margin-top:1rem;
     margin-bottom: 1rem;
 }
+
+.rodape {
+    background-color: var(--verde-claro);
+    margin-top: 1rem;
+    padding:2rem 0.5rem 2rem;
+    text-align: center;
+}
+
+.rodape h1 {
+    font-size:1.2rem;
+    line-height:1.5rem;
+}
+
+.rodape address {
+    margin-top:0.5rem;
+    font-size: 0.8rem;
+    text-shadow:0.2px 0.2px var(--verde-escuro)
+}
