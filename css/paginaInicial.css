@@ -6,6 +6,7 @@
     --open: 'Open Sans', sans-serif;
     --fundo-branco: #fefefe;
     --width__img: 100%;
+    --style__script: 'Style Script', cursive;
 }
 
 body {
@@ -77,9 +78,9 @@ padding: 0 1rem;
     box-shadow: 0px 15px 10px -15px #111;}
 
 .paragrafo__seçao {
-    font-size:0.9rem;
+    font-size:1.2rem;
     font-weight:400;
-    padding: .5rem 1rem;
+    padding: 1rem 1rem;
     font-family:var(--open);
     margin-bottom: 1rem;
 }
