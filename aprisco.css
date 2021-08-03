@@ -1,0 +1,36 @@
+:root {
+    --preto: #000000;
+    --verde-claro: #AFA;
+    --verde-escuro: #241;
+    --verde-alt:#75b875;
+    --montserrat:'Montserrat', sans-serif;
+    --open: 'Open Sans', sans-serif;
+    --fundo-branco: #fefefe;
+    --width__img: 100%;
+    --style__script: 'Style Script', cursive;
+}
+
+.header {
+    background-color:var(--verde-alt);
+}
+
+.header img {
+    width: 25vw;
+    margin:.5rem;
+}
+
+.footer {
+    background-color: var(--verde-alt);
+    width: 100vw;
+    height:13.5vw;
+    position:absolute;
+    bottom:0px;
+}
+
+.botao {
+    width: 5rem;
+    height: 2.9rem;
+    background-color:transparent;
+    border:none;
+    background-image: ;
+}

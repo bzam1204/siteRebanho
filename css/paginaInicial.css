@@ -2,6 +2,7 @@
     --preto: #000000;
     --verde-claro: #AFA;
     --verde-escuro: #241;
+    --verde-alt:#75b875;
     --montserrat:'Montserrat', sans-serif;
     --open: 'Open Sans', sans-serif;
     --fundo-branco: #fefefe;
@@ -27,7 +28,7 @@ body {
 }
 
 main{
-padding: 0 1rem;
+    padding: 0 1rem;
 }
 
 .nome__igreja {
@@ -120,4 +121,8 @@ padding: 0 1rem;
     margin-top:0.5rem;
     font-size: 0.8rem;
     text-shadow:0.2px 0.2px var(--verde-escuro)
+}
+
+.rodape {
+    margin: 0 1rem .5rem;
 }
