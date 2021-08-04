@@ -12,6 +12,9 @@
 
 .header {
     background-color:var(--verde-alt);
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
 }
 
 .header img {
@@ -22,14 +25,21 @@
 .footer {
     background-color: var(--verde-alt);
     width: 100vw;
-    height:13.5vw;
-    position:absolute;
+    max-height:13.5vw;
+    position:-webkit-sticky;
+    position:sticky;
     bottom:0px;
+}
+
+.footer nav div {
+    text-align: center;   
+    max-height:13vw; 
 }
 
 .botao {
     width: 5rem;
     height: 2.9rem;
+    max-height: 13vw;
     background-color:transparent;
     border:none;
 }
