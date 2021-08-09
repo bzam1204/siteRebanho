@@ -1,0 +1,30 @@
+:root {
+    --preto: #000000;
+    --verde-claro: #AFA;
+    --verde-escuro: #241;
+    --verde-alt:#75b875;
+    --montserrat:'Montserrat', sans-serif;
+    --open: 'Open Sans', sans-serif;
+    --fundo-branco: #fefefe;
+    --width__img: 100%;
+    --style__script: 'Style Script', cursive;
+}
+
+.body {
+    padding-bottom:13.5vw;
+}
+
+.header {
+    background-color:var(--verde-alt);
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+}
+
+.header img {
+    width: 7rem;
+    margin:.5rem;
+}
+
+
+

@@ -1,0 +1,77 @@
+:root {
+    --preto: #000000;
+    --verde-claro: #AFA;
+    --verde-escuro: #241;
+    --verde-alt:#75b875;
+    --montserrat:'Montserrat', sans-serif;
+    --open: 'Open Sans', sans-serif;
+    --fundo-branco: #fefefe;
+    --width__img: 100%;
+    --style__script: 'Style Script', cursive;
+}
+
+body {
+    font-family: var(--open);
+}
+
+.header {
+    display: inline-block;
+    width: 100vw;
+    background-color:var(--verde-alt);
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+}
+
+.header img {
+    width: 7rem;
+    margin:.5rem;
+}
+
+main {
+    max-width: 720px;
+    margin: 1rem auto;
+    margin-left: 5rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.title {
+    margin-top: 1rem;
+}
+
+h2 {
+    font-size:1rem;
+    line-height: 1.2rem;
+}
+
+.subtitle {
+    margin: 1rem auto;
+}
+
+p {
+    margin-top:1rem;
+    text-indent: 1rem;
+    line-height: 1.5rem;
+}
+
+.moldura__title {
+    width: 42rem;
+    height:15rem;
+    float: left;
+    margin-bottom:3rem
+}
+
+img {
+    max-width: 720px;
+    width: 42rem;
+    margin: 1rem auto;
+}
+
+.img__capa {
+    float: left;
+    margin-right: 3rem;
+    width: 15rem;
+}
