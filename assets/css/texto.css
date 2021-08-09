@@ -66,7 +66,7 @@ p {
 
 img {
     max-width: 720px;
-    width: 42rem;
+    width: 20rem;
     margin: 1rem auto;
 }
 
@@ -75,3 +75,5 @@ img {
     margin-right: 3rem;
     width: 15rem;
 }
+
+@media ()
