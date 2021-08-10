@@ -8,6 +8,8 @@
     --fundo-branco: #fefefe;
     --width__img: 100%;
     --style__script: 'Style Script', cursive;
+    --largura__pag:100%;
+    --largura__img:15rem;
 }
 
 body {
@@ -35,12 +37,13 @@ main {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .title {
     margin:1rem auto;
     margin-top: 1rem;
+    text-align: justify;
 }
 
 h2 {
@@ -63,6 +66,7 @@ body p {
 .img__capa {
     margin-right: 3rem;
     width: 15rem;
+    margin-left:calc((var(--largura__pag) - var(--largura__img)) / 2 )
 }
 
 .moldura__title {
@@ -72,5 +76,5 @@ body p {
 img {
     max-width: 720px;
     width: 100%;
-    margin: 1rem auto;
+    margin: 1rem auto;    
 }
