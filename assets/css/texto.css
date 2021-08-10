@@ -52,11 +52,12 @@ h2 {
     margin: 1rem auto;
 }
 
-p {
+body p {
     margin-top:1rem;
     text-indent: 1rem;
     text-align:justify;
     line-height: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .img__capa {
