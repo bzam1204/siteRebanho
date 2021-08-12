@@ -27,7 +27,6 @@
 }
 
 .card {
-    position:absolute;
     text-align: center;
     border-radius: 4px;
     margin:1rem auto;
@@ -88,7 +87,7 @@
     width: 30px;
     border-radius: 16px;
     position:absolute;
-    top: .5rem;
+    top: calc(50% - 15px);
     left:16px;
 }
 
@@ -96,8 +95,16 @@
     display: inline-block;
     position:absolute;
     color:var(--verde-alt);
-    top: 1rem;
+    top: calc(50% - .5rem);
     left:3.2rem;
+}
+
+.data {
+    color:var(--verde-alt);
+    font-size:.7rem;
+    position:absolute;
+    right:1rem;
+    top:calc(50% - .35rem);
 }
 
 
