@@ -91,12 +91,13 @@
     left:16px;
 }
 
-.nomeAutor {
+body .nomeAutor {
     display: inline-block;
     position:absolute;
     color:var(--verde-alt);
     top: calc(50% - .5rem);
     left:3.2rem;
+    font-family: var(--montserrat);
 }
 
 .data {
@@ -105,6 +106,7 @@
     position:absolute;
     right:1rem;
     top:calc(50% - .35rem);
+    font-family: var(--montserrat);
 }
 
 
