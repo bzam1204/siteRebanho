@@ -2,21 +2,19 @@
 
     var xhr = new XMLHttpRequest();
 
-    xhr.open("GET", "https://api-pacientes.herokuapp.com/pacientes");
+    xhr.open("GET", "https://bzam1204.github.io/siteRebanho/cartoes.json");
 
-    xhr.addEventListener("load", function() {
-        var erroAjax = document.querySelector("#erro-ajax");
+    xhr.addEventListener("load", function() {     
 
         if (xhr.status == 200) {
-            erroAjax.classList.add("invisivel");
             var resposta = xhr.responseText;
-            var pacientes = JSON.parse(resposta);
+            var cartoes = JSON.parse(resposta);
 
-            pacientes.forEach(function(paciente) {
-                adicionaPacienteNaTabela(paciente);
+            cartoes.forEach(function(cartoes) {
+                console.log(cartoes)
             });
         } else {
-            erroAjax.classList.remove("invisivel");
+            console.log('erro')
         }
     });
 
