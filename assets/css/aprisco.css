@@ -40,7 +40,6 @@
  .imagemCard {
     width: 100%;
     border-radius: 4px;
-    margin-bottom:.9rem;
 }
 
  .assunto {
@@ -49,7 +48,7 @@
     text-align: left;
     text-indent:1rem;
     text-transform: uppercase;
-    margin-top:1rem;
+    margin-top:2rem;
 }
  
 .titulo {
@@ -71,32 +70,35 @@
     color:#000000b2;
     text-indent: 1rem;
     padding: 0rem 1rem;
-    margin-bottom: 1rem;    
+}
+
+.link {
+    display: inline-block;
+    color:var(--verde-alt);
+    margin: 1rem;
+}
+
+.molduraAutor {
+    position:relative;
+    border-top: .5px solid #e2e0e0;
+    padding: 1.5rem;
 }
 
 .imgAutor {
     width: 30px;
     border-radius: 16px;
     position:absolute;
-    left:0px;
+    top: .5rem;
+    left:16px;
 }
 
-
-
-.botao {
+.nomeAutor {
     display: inline-block;
-    width:80vw;
-    font-size:0.9rem;
-    line-height:2.7rem;
-    max-width: 280px;
-    padding-bottom: 2px;
-    border: #241 1px solid;
-    color:#241;
-    box-shadow: .5px .5px 5px rgb(236, 236, 236);
-    border-radius:8px;
-    border-color:var(--verde-escuro);
-    color:var(--verde-escuro);
-    margin-bottom: 1rem;
+    position:absolute;
+    color:var(--verde-alt);
+    top: 1rem;
+    left:3.2rem;
 }
+
 
 
