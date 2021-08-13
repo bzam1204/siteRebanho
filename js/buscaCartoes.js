@@ -13,7 +13,7 @@ xhr.addEventListener("load", function () {
             const main = document.querySelector('main')
             const div = document.createElement('div')
             div.classList.add('card')
-            main.appendChild(div)
+            
             div.innerHTML =
                 `
                     <img class="imagemCard" src="${cartoes.img}" alt="">
@@ -27,7 +27,7 @@ xhr.addEventListener("load", function () {
                         <p class="data">${cartoes.data}</p>
                     </div>
                 `
-            console.log(cartoes.sinopse)
+                main.appendChild(div)
         })
 
     } else {
