@@ -1,5 +1,4 @@
 
-
     var xhr = new XMLHttpRequest();
 
     xhr.open("GET", "https://bzam1204.github.io/siteRebanho/cartoes.json");
@@ -10,9 +9,14 @@
             var resposta = xhr.responseText;
             var cartoes = JSON.parse(resposta);
 
-            cartoes.forEach(function(cartoes) {
-                console.log(cartoes)
-            });
+            cartoes.forEach(function (cartoes){
+                const main = document.querySelector('main')
+                const img = document.createElement('img')
+                main.appendChild(img)
+                img.src = cartoes.img
+                console.log(img.src)
+            } )
+
         } else {
             console.log('erro')
         }
