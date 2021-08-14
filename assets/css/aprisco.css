@@ -129,6 +129,11 @@ body .nomeAutor {
 .img__audio {
     margin: 2.5px 2.5px 1.5px;
 }
+
+.footer p {
+    font-family: var(--open);
+}
+
 .img__audio ~ p {
     position: relative ;
     bottom: -.5px;
