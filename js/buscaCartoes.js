@@ -8,6 +8,7 @@ xhr.addEventListener("load", function () {
     if (xhr.status == 200) {
         var resposta = xhr.responseText;
         var cartoes = JSON.parse(resposta);
+        console.log(cartoes)
 
         cartoes.forEach(function (cartoes) {
             const main = document.querySelector('main')
@@ -42,7 +43,6 @@ xhr.addEventListener("load", function () {
                         <p class="nomeAutor">${cartoes.nomeAutor}</p>
                         <p class="data">${cartoes.data}</p>
                     </div>
-                    <iframe width="640" height="480" src="https://www.youtube.com/embed/4TUpg_qmbYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 `
                 main.appendChild(div)
             } else {
