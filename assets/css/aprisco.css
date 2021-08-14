@@ -10,8 +10,8 @@
     --style__script: 'Style Script', cursive;
 }
 
-.body {
-    padding-bottom:13.5vw;
+body{
+    font-size: 16px;
 }
 
 .header {
@@ -106,5 +106,32 @@ body .nomeAutor {
     font-family: var(--montserrat);
 }
 
+.footer {
+    background-color: #75b875;
+    position: -webkit-sticky;
+    position:sticky;
+    bottom:0;
+    width: 100vw;
+}
+
+.menu__inf div {
+    display:flex;
+    text-align: center;  
+}
+
+.botao {
+    width: 5.937585rem;
+    background-color:transparent;
+    border:none;
+    text-align: center;
+}
+
+.img__audio {
+    margin: 2.5px 2.5px 1.5px;
+}
+.img__audio ~ p {
+    position: relative ;
+    bottom: -.5px;
+}
 
 
