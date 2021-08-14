@@ -13,9 +13,11 @@ xhr.addEventListener("load", function () {
             const main = document.querySelector('main')
             const div = document.createElement('div')
             div.classList.add('card')
-            
-            div.innerHTML =
-                `
+            console.log(cartoes)
+
+            if (cartoes.tipo == 'artigo') {
+                div.innerHTML =
+                    `
                     <img class="imagemCard" src="${cartoes.img}" alt="">
                     <p class="assunto">${cartoes.assunto}</p>
                     <h2 class="titulo">${cartoes.title}</h2>
@@ -28,11 +30,14 @@ xhr.addEventListener("load", function () {
                     </div>
                 `
                 main.appendChild(div)
+            } else {
+                console.log('nao deu certo')
+            }
         })
-
-    } else {
-        console.log('erro')
-    }
+           
+        } else {
+            console.log('erro')
+        }
 });
 
 xhr.send();
