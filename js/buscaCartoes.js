@@ -33,7 +33,7 @@ xhr.addEventListener("load", function () {
             } else if (cartoes.tipo == "video") {
                 div.innerHTML =
                     `
-                    <iframe width="100%" src="${cartoes.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="375px" src="${cartoes.video}"  frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
                     <p class="assunto">${cartoes.assunto}</p>
                     <h2 class="titulo">${cartoes.title}</h2>
                     <p class="sinopse">${cartoes.sinopse}</p>
