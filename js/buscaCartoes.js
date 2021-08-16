@@ -1,59 +1,39 @@
+const buscaCartoes = (cartoes) => {
+    cartoes.forEach(function (cartoes) {
+        const main = document.querySelector('main')
+        const div = document.createElement('div')
+        div.classList.add('card')
 
-var xhr = new XMLHttpRequest();
-
-xhr.open("GET", "https://bzam1204.github.io/siteRebanho/cartoes.json");
-
-xhr.addEventListener("load", function () {
-
-    if (xhr.status == 200) {
-        var resposta = xhr.responseText;
-        var cartoes = JSON.parse(resposta);
-        console.log(cartoes)
-
-        cartoes.forEach(function (cartoes) {
-            const main = document.querySelector('main')
-            const div = document.createElement('div')
-            div.classList.add('card')
-
-            if (cartoes.tipo == "artigo") {
-                div.innerHTML =
-                    `
-                    <img class="imagemCard" src="${cartoes.img}" alt="">
-                    <p class="assunto">${cartoes.assunto}</p>
-                    <h2 class="titulo">${cartoes.title}</h2>
-                    <p class="sinopse">${cartoes.sinopse}</p>
-                    <a href="O Valor de Uma Alma.html" class="link">Leia Mais</a>
-                    <div class="molduraAutor">
-                        <img src="${cartoes.imgAutor}" alt="" class="imgAutor">
-                        <p class="nomeAutor">${cartoes.nomeAutor}</p>
-                        <p class="data">${cartoes.data}</p>
-                    </div>
+        if (cartoes.tipo == "artigo") {
+            div.innerHTML =
                 `
-                main.appendChild(div)
-            } else if (cartoes.tipo == "video") {
-                div.innerHTML =
-                    `
-                    <iframe width="100%" height="375px" src="${cartoes.video}"  frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
-                    <p class="assunto">${cartoes.assunto}</p>
-                    <h2 class="titulo">${cartoes.title}</h2>
-                    <p class="sinopse">${cartoes.sinopse}</p>
-                    <a href="O Valor de Uma Alma.html" class="link">Leia Mais</a>
-                    <div class="molduraAutor">
-                        <img src="${cartoes.imgAutor}" alt="" class="imgAutor">
-                        <p class="nomeAutor">${cartoes.nomeAutor}</p>
-                        <p class="data">${cartoes.data}</p>
-                    </div>
+            <img class="imagemCard" src="${cartoes.img}" alt="">
+            <p class="assunto">${cartoes.assunto}</p>
+            <h2 class="titulo">${cartoes.title}</h2>
+            <div class="molduraAutor">
+                <img src="${cartoes.imgAutor}" alt="" class="imgAutor">
+                <p class="nomeAutor">${cartoes.nomeAutor}</p>
+                <p class="data">${cartoes.data}</p>
+            </div>
+        `
+            main.appendChild(div)
+        } else if (cartoes.tipo == "video") {
+            div.innerHTML =
                 `
-                main.appendChild(div)
-            } else {
-                console.log('nao deu certo')
-            }
-        })
+            <iframe width="100%" height="375px" src="${cartoes.video}"  frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
+            <p class="assunto">${cartoes.assunto}</p>
+            <h2 class="titulo">${cartoes.title}</h2>
+            <p class="sinopse">${cartoes.sinopse}</p>
+            <a href="O Valor de Uma Alma.html" class="link">Leia Mais</a>
+            <div class="molduraAutor">
+                <img src="${cartoes.imgAutor}" alt="" class="imgAutor">
+                <p class="nomeAutor">${cartoes.nomeAutor}</p>
+                <p class="data">${cartoes.data}</p>
+            </div>
+        `
+            main.appendChild(div)
+        }
+    })
+}
 
-    } else {
-        console.log('erro')
-    }
-});
-
-xhr.send();
-
+export default buscaCartoes
