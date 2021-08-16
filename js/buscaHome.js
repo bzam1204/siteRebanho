@@ -1,17 +1,11 @@
+import scrollTop from './scrollTop.js'
 
 const buscaHome = (cartoes) => {
 
     var cards = cartoes
     const btn = document.querySelector('[data-home]')
     btn.addEventListener('click', function (cards) {
-        var topoPag = () => {
-            window.scrollTo({
-                top: 0,
-                left:0,
-                behavior:"smooth"
-            })
-        }
-        topoPag()
+        scrollTop()
         const main = document.querySelector('main')
         main.innerHTML = ' '
         cartoes.forEach(function (cartoes) {

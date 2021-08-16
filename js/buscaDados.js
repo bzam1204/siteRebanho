@@ -1,6 +1,8 @@
+import buscArtigo from "./buscaArtigos.js";
 import buscaCartoes from "./buscaCartoes.js"; 
 import buscaHome from "./buscaHome.js";
 import mostraVideo from "./video.js";
+import buscAudio from './buscAudio.js'
 
 const buscaDados = () => {
     var xhr = new XMLHttpRequest();
@@ -12,7 +14,9 @@ const buscaDados = () => {
             var resposta = xhr.responseText;
             var cartoes = JSON.parse(resposta);
             buscaHome(cartoes)
+            buscArtigo(cartoes)
             mostraVideo(cartoes)
+            buscAudio(cartoes)
             buscaCartoes(cartoes)
         }
     })

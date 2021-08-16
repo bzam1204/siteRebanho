@@ -1,8 +1,11 @@
+import scrollTop from "./scrollTop.js"
+
 const mostraVideo = function (cartoes) {
     var cards = cartoes
     const btn = document.querySelector('[data-video]')
     btn.addEventListener('click', function (cards) {
 
+        scrollTop()
         const main = document.querySelector('main')
         main.innerHTML = ' '
 

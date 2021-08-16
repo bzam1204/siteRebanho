@@ -8,10 +8,11 @@
     --fundo-branco: #fefefe;
     --width__img: 100%;
     --style__script: 'Style Script', cursive;
+    font-size: 16px;
 }
 
 body{
-    font-size: 16px;
+    padding-bottom: 3.9375rem;
 }
 
 .header {
@@ -109,7 +110,7 @@ body .nomeAutor {
 .footer {
     background-color: #75b875;
     position: -webkit-sticky;
-    position:sticky;
+    position:fixed;
     bottom:0;
     width: 100vw;
 }
@@ -124,6 +125,7 @@ body .nomeAutor {
     background-color:transparent;
     border:none;
     text-align: center;
+    cursor: pointer;
 }
 
 .img__audio {
