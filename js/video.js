@@ -18,14 +18,14 @@ const mostraVideo = function (cartoes) {
 
                 div.innerHTML =
                     `
-                        <iframe width="100%" height="375px" src="${cards.video}"  frameborder="0"allow="accelerometer; clipboard-write;encrypted-media; gyroscope;picture-in-picture"  allowfullscreen><iframe>
-                        <p class="assunto">${cards.assunto}</p>
-                        <h2 class="titulo">${cards.title}</h2>
-                        <div class="molduraAutor">
-                            <img src="${cards.imgAutor}" alt="" class="imgAutor">
-                            <p class="nomeAutor">${cards.nomeAutor}</p>
-                            <p class="data">${cards.data}</p>
-                        </div>
+                    <iframe width="100%" height="375px" src="${cards.video}"  frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
+                    <p class="assunto">${cards.assunto}</p>
+                    <h2 class="titulo">${cards.title}</h2>
+                    <div class="molduraAutor">
+                        <img src="${cards.imgAutor}" alt="" class="imgAutor">
+                        <p class="nomeAutor">${cards.nomeAutor}</p>
+                        <p class="data">${cards.data}</p>
+                    </div>
                     `
                 main.appendChild(div)
             }
