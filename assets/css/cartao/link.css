@@ -1,0 +1,5 @@
+.link {
+    display: inline-block;
+    color:var(--verde-alt);
+    margin: 1rem;
+}

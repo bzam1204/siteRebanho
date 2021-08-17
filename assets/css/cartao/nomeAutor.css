@@ -1,0 +1,8 @@
+body .nomeAutor {
+    display: inline-block;
+    position:absolute;
+    color:var(--verde-alt);
+    top: calc(50% - .5rem);
+    left:3.55rem;
+    font-family: var(--montserrat);
+}

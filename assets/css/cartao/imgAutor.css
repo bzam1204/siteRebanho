@@ -1,0 +1,7 @@
+.imgAutor {
+    width: 1.875rem;
+    border-radius: 1rem;
+    position:absolute;
+    top: calc(50% - 0.9375rem);
+    left:1rem;
+}

@@ -1,0 +1,8 @@
+body .titulo {
+    text-align: left;
+    font-family:var(--montserrat);
+    font-weight: 700; 
+    font-size: 1.3rem;
+    color:var(--verde-alt);
+    padding:.7rem 1rem;
+}

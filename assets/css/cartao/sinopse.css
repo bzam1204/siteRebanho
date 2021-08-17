@@ -1,0 +1,10 @@
+.sinopse {
+    line-height:1.1rem;
+    font-size: 1rem;
+    font-weight:400;
+    font-family:var(--open);
+    text-align: justify;
+    color:#000000b2;
+    text-indent: 1rem;
+    padding: 0rem 1rem;
+}
