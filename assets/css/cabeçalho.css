@@ -1,0 +1,20 @@
+.header {
+    background-color:var(--verde-alt);
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+    z-index: 10;
+}
+
+.header img {
+    width: 7rem;
+    margin:.5rem;
+}
+
+.header .perfil__img {
+    position: absolute;
+    top:calc(50% - 1.5rem);
+    right:.5rem;
+    width: 1.875rem;
+    border-radius: 2rem;
+}

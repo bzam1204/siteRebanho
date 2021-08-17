@@ -1,10 +1,36 @@
 [
     {
         "tipo": "video",
+        "video": "https://youtu.be/VOfpY5eIlD8",
+        "assunto": "Música",
+        "title": "A Resposta - Grupo de louvor Rebanho de Jesus Cristo",
+        "imgAutor": "https://bzam1204.github.io/siteRebanho/assets/img/Aprisco.com.png",
+        "nomeAutor": "Grupo de louvor IRJC",
+        "data": "15/04/2019"
+    },
+    {
+        "tipo": "video",
+        "video": "https://youtu.be/Vp_VSytMeCU",
+        "assunto": "Música",
+        "title": "Ousado amor - Grupo de louvor Rebanho de Jesus Cristo",
+        "imgAutor": "https://bzam1204.github.io/siteRebanho/assets/img/Aprisco.com.png",
+        "nomeAutor": "Grupo de louvor IRJC",
+        "data": "15/04/2019"
+    },
+    {
+        "tipo": "video",
+        "video": "https://youtu.be/WZwjOMs8V9c",
+        "assunto": "Música",
+        "title": "Deus é bom - Grupo de louvor Rebanho de Jesus Cristo",
+        "imgAutor": "https://bzam1204.github.io/siteRebanho/assets/img/Aprisco.com.png",
+        "nomeAutor": "Grupo de louvor IRJC",
+        "data": "15/04/2019"
+    },
+    {
+        "tipo": "video",
         "video": "https://www.youtube.com/embed/4TUpg_qmbYo",
         "assunto": "Pregação",
         "title": "Pregação na Igreja Rebanho de Jesus Cristo",
-        "sinopse": "Conheça a historia de um filho que pede a herança do pai ainda vivo e parte, rico, para mundo afora, abandonando os ensinamentos do seu pai para finalmente seguir seu coração.",
         "imgAutor": "https://bzam1204.github.io/siteRebanho/assets/img/Aprisco.com.png",
         "nomeAutor": "Pr. José Dilson",
         "data": "13/05/2016"
