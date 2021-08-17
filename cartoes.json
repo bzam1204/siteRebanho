@@ -1,7 +1,6 @@
 [
     {
         "tipo": "video",
-        "tumb": "",
         "video": "https://www.youtube.com/embed/VOfpY5eIlD8",
         "assunto": "Música",
         "title": "A Resposta - Grupo de louvor Rebanho de Jesus Cristo",
@@ -11,7 +10,6 @@
     },
     {
         "tipo": "video",
-        "tumb": "",
         "video": "https://www.youtube.com/embed/Vp_VSytMeCU",
         "assunto": "Música",
         "title": "Ousado amor - Grupo de louvor Rebanho de Jesus Cristo",
@@ -21,7 +19,6 @@
     },
     {
         "tipo": "video",
-        "tumb": "",
         "video": "https://www.youtube.com/embed/WZwjOMs8V9c",
         "assunto": "Música",
         "title": "Deus é bom - Grupo de louvor Rebanho de Jesus Cristo",

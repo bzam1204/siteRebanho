@@ -18,8 +18,7 @@ const mostraVideo = function (cartoes) {
 
                 div.innerHTML =
                     `
-                        <img class="imagemCard" src="${cards.img}"alt="">
-                        <iframe width="100%" height="375px" src="{cards.video}"  frameborder="0"allow="accelerometer; clipboard-write;encrypted-media; gyroscope;picture-in-picture"  allowfullscreen><iframe>
+                        <iframe width="100%" height="375px" src="${cards.video}"  frameborder="0"allow="accelerometer; clipboard-write;encrypted-media; gyroscope;picture-in-picture"  allowfullscreen><iframe>
                         <p class="assunto">${cards.assunto}</p>
                         <h2 class="titulo">${cards.title}</h2>
                         <div class="molduraAutor">
