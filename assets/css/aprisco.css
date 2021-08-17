@@ -129,7 +129,7 @@ body .nomeAutor {
 }
 
 .footer p {
-    font-family: var(--open);
+    font-family: var(--montserrat);
     position: relative;
     top: -5px;
     left:1.5px;
