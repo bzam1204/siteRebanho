@@ -1,0 +1,9 @@
+.rodape__paragrafo {
+    font-family: var(--montserrat);
+    position: relative;
+    top: -5px;
+    left:1.5px;
+}.rodape__imgAudio ~ p {
+    position: relative ;
+    top:-3px;
+}

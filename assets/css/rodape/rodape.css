@@ -1,0 +1,9 @@
+.rodape {
+    background-color: #75b875;
+    position: -webkit-sticky;
+    position:fixed;
+    bottom:0;
+    width: 100vw;
+    padding: .1rem;
+    padding-bottom: 0;
+}

@@ -1,0 +1,11 @@
+.rodape__img {
+    width: 1rem;
+    margin-top: .2rem;
+}
+
+.rodape__imgAudio {
+    padding-top: 2.5px;
+    width: 1rem;
+    position: relative;
+    top: 2px;
+}
