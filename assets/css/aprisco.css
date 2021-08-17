@@ -113,6 +113,7 @@ body .nomeAutor {
     position:fixed;
     bottom:0;
     width: 100vw;
+    padding: .1rem;
 }
 
 .menu__inf div {
@@ -128,8 +129,15 @@ body .nomeAutor {
     cursor: pointer;
 }
 
-.img__audio {
-    margin: 2.5px 2.5px 1.5px;
+.footer img {
+    width: 1.5rem;
+    margin-top: .2rem;
+}
+
+.footer .img__audio {
+    width: 22px;
+    position: relative;
+    top: 2px;
 }
 
 .footer p {
@@ -140,7 +148,7 @@ body .nomeAutor {
 
 .img__audio ~ p {
     position: relative ;
-    top: -3.5px;
+    top: -2px;
 }
 
 
