@@ -10,6 +10,8 @@ const buscaCartoes = (cartoes) => {
             <img class="imagemCard" src="${cartoes.img}" alt="">
             <p class="assunto">${cartoes.assunto}</p>
             <h2 class="titulo">${cartoes.title}</h2>
+            <p class="sinopse">${cartoes.sinopse}</p>
+            <a href="O Valor de Uma Alma.html" class="link">Leia Mais</a>
             <div class="molduraAutor">
                 <img src="${cartoes.imgAutor}" alt="" class="imgAutor">
                 <p class="nomeAutor">${cartoes.nomeAutor}</p>
