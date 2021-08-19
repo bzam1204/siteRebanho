@@ -1,4 +1,4 @@
-import buscaDados from "./buscaDados.js";
+import buscaDados from "./requisicoes/buscaDados.js";
 buscaDados()
 
 

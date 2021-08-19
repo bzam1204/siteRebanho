@@ -18,3 +18,7 @@
     width: 1.875rem;
     border-radius: 2rem;
 }
+
+.cabecalho__btnPerfil {
+    display:contents;
+}

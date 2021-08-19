@@ -1,0 +1,12 @@
+.perfil__nome {
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: -11.6875rem;
+    background: linear-gradient(to right, rgb(15, 114, 228) 20%, rgb(217, 221, 4) 50%, green 85%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+    text-shadow:1px 1px 1px rgba(0, 0, 0, 0.199) ;
+}

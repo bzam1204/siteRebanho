@@ -6,4 +6,5 @@
     width: 100vw;
     padding: .1rem;
     padding-bottom: 0;
+    transition: opacity .1s ease-in-out;
 }

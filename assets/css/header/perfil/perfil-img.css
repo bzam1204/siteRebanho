@@ -1,0 +1,25 @@
+.perfil__img {
+    position: relative;
+    top: -13.8rem;
+    border-radius: 128px;
+    margin-left: calc(50% - 5.5rem);
+    margin-top: 2.15rem;
+    padding: 3px;
+    width: 11rem;
+}
+
+.perfil__moldura--borda {
+        height: 11rem;
+        width: 11rem;
+        padding: 3px;
+        margin-top: 2rem;
+        margin-left: calc(50% - 5.5rem - 4px);
+        border-radius:128px; /*1*/
+        border:4px solid transparent; /*2*/
+        background:linear-gradient(15deg,rgb(15, 114, 228),rgb(215, 219, 5),green) border-box; /*3*/
+        -webkit-mask: /*4*/
+           linear-gradient(#fff 0 0) padding-box, 
+           linear-gradient(#fff 0 0);
+        -webkit-mask-composite: destination-out; /*5'*/
+        mask-composite: exclude;       
+}

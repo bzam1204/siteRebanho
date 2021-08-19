@@ -2,12 +2,12 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/rodape/rodape.css">
     <link rel="stylesheet" href="assets/css/rodape/div.css">
     <link rel="stylesheet" href="assets/css/rodape/botao.css">
     <link rel="stylesheet" href="assets/css/rodape/img.css">
     <link rel="stylesheet" href="assets/css/rodape/paragrafo.css">
-    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/cartao/card.css">
     <link rel="stylesheet" href="assets/css/cartao/imgAutor.css">
     <link rel="stylesheet" href="assets/css/cartao/nomeAutor.css">
@@ -18,8 +18,16 @@
     <link rel="stylesheet" href="assets/css/cartao/titulo.css">
     <link rel="stylesheet" href="assets/css/cartao/assunto.css">
     <link rel="stylesheet" href="assets/css/cartao/img.css">
-    <link rel="stylesheet" href="assets/css/cabeçalho.css">    
+    <link rel="stylesheet" href="assets/css/header/cabeçalho.css">    
     <link rel="stylesheet" href="./assets/css/aprisco.css">
+    <link rel="stylesheet" href="assets/css/header/perfil/perfil.css">
+    <link rel="stylesheet" href="assets/css/header/perfil/perfil-img.css">
+    <link rel="stylesheet" href="assets/css/header/perfil/perfil-nome.css">
+    <link rel="stylesheet" href="assets/css/header/perfil/perfil-botoes.css">
+    <link rel="stylesheet" href="assets/css/header/perfil/perfil-botao.css">
+    <link rel="stylesheet" href="assets/css/efeitos.css">
+
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
@@ -39,13 +47,13 @@
             <figure><img class="cabecalho__logo" src="./assets/img/Aprisco.com__alpha.png" alt=""></figure>
         </a>
 
-        <a href="#"><img src="assets/img/imgPerfil.jpg" alt="" class="cabecalho__imgPerfil"></a>
+        <button data-cabecalho__btnPerfil class="cabecalho__btnPerfil"><img src="assets/img/imgPerfil.jpg" alt="" class="cabecalho__imgPerfil"></button>
     </header>
 
     <main data-main>
     </main>
 
-    <footer class="rodape" data-footer>
+    <footer class="rodape" data-rodape>
         <nav class="rodape__nav">
             <div class="rodape__div">
                 <button class="rodape__botao">
@@ -73,6 +81,8 @@
     <script type="module" src="js/main.js"></script>
     <script type="module" src="js/buscaCartoes.js"></script>
     <script type="module" src="js/video.js"></script>
+    <script type="module" src="./js/perfil/perfil.js"></script>
+  
 </body>
 
 </html>

@@ -1,0 +1,8 @@
+.perfil__botoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    margin-left: calc(50% - 10.32rem - .2rem - .8rem - .5rem);
+    margin-right: calc(50% - 10.32rem - .2rem - .8rem - .5rem);
+}

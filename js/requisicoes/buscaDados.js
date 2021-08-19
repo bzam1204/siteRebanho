@@ -1,8 +1,9 @@
-import buscArtigo from "./buscaArtigos.js";
-import buscaCartoes from "./buscaCartoes.js"; 
-import buscaHome from "./buscaHome.js";
-import mostraVideo from "./video.js";
-import buscAudio from './buscAudio.js'
+import buscArtigo from "../buscaArtigos.js";
+import buscaCartoes from "../buscaCartoes.js"; 
+import buscaHome from "../buscaHome.js";
+import mostraVideo from "../video.js";
+import buscAudio from '../buscAudio.js'
+import perfil from "../perfil/perfil.js";
 
 const buscaDados = () => {
     var xhr = new XMLHttpRequest();
@@ -18,6 +19,7 @@ const buscaDados = () => {
             mostraVideo(cartoes)
             buscAudio(cartoes)
             buscaCartoes(cartoes)
+            perfil()
         }
     })
 
