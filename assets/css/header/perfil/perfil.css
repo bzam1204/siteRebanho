@@ -1,3 +1,5 @@
-.perfil {
+.perfil__painel {
+    position:absolute;
     font-size: 16px;
+    background:linear-gradient(#fafafa, rgb(252, 252, 252));
 }
