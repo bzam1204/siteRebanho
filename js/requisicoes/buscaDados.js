@@ -14,11 +14,12 @@ const buscaDados = () => {
         if (xhr.status == 200) {
             var resposta = xhr.responseText;
             var cartoes = JSON.parse(resposta);
+            var cartoesOrdenados = cartoes.sort()
             buscaHome(cartoes)
             buscArtigo(cartoes)
             mostraVideo(cartoes)
             buscAudio(cartoes)
-            buscaCartoes(cartoes)
+            buscaCartoes(cartoesOrdenados)
             perfil()
         }
     })

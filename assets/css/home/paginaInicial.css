@@ -1,4 +1,5 @@
 :root {
+    font-size:16px;
     --preto: #000000;
     --verde-claro: #AFA;
     --verde-escuro: #241;
@@ -15,42 +16,8 @@ body {
     background-color: var(--fundo-branco) ;
 }
 
-.header {
-    background-color: var(--verde-claro);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: .75rem 0;
-    border-radius: 8px;
-    margin: .5rem 1rem 1rem;
-    box-shadow:0.5px 0.5px 4px rgb(70, 156, 70);
-}
-
 main{
     padding: 0 1rem;
-}
-
-.nome__igreja {
-    font-size: 2rem;
-    font-weight:700;
-    color: var(--verde-escuro);
-    font-family:var(--montserrat);
-    text-align: center;
-    line-height:3rem;    
-}
-
-.menu__navegaçao {
-    text-align: center;
-    margin-top: 1.5rem;
-}
-
-.menu__navegaçao li{
-    display: inline-block;
-    font-size: 1.32rem;
-    font-weight: 400;
-    margin: 0 1.2rem 1.25rem;
-    font-family:var(--montserrat);
-    text-shadow: 0.5px 0.5px 2px rgba(78, 60, 60, 0.514);
 }
 
  .secao {
@@ -62,8 +29,6 @@ main{
     box-shadow:0.5px 0.5px 4px #686767;
     max-width: 720px;
  }
-
-
  
 .titulo__seçao {
     padding:2rem 0;
@@ -105,7 +70,7 @@ main{
 }
 
 .rodape {
-    background-color: var(--verde-claro);
+    background-color: var(--verde-alt);
     padding:2rem 0.5rem 2rem;
     text-align: center;
 }
@@ -119,11 +84,6 @@ main{
     margin-top:0.5rem;
     font-size: 0.8rem;
     text-shadow:0.2px 0.2px var(--verde-escuro)
-}
-
-html body .rodape {
-    margin: 0 1rem .5rem;
-    max-width: none;
 }
 
 

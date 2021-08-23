@@ -4,9 +4,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/paginaInicial.css">
+    <link rel="stylesheet" href="./assets/css/home/paginaInicial.css">
+    <link rel="stylesheet" href="assets/css/home/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/home/cabecalho/menu.css">
+    <link rel="stylesheet" href="assets/css/home/cabecalho/titulo.css">
+    <link rel="stylesheet" href="assets/css/home/cabecalho/botao.css">
+    <link rel="stylesheet" href="assets/css/home/cabecalho/menu-item.css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,20 +20,20 @@
     <title>Rebanho de Jesus Cristo</title>
 </head>
 <body>
-    <header class="header">
+    <header class="cabecalho">
         <a 
             href="index.html">
-            <h1 class="nome__igreja">Igreja Rebanho de Jesus Cristo</h1>
+            <h1 class="cabecalho__titulo">IRJC</h1>
         </a>
-        <nav class="menu__navegaçao">
-            <ul>                
-                <li><a href="membresia.html">Membresia</a></li>
-                <li><a href="aprisco.html">Blog</a></li>
-                <li><a href="#">Biblioteca</a></li>
-                <li><a href="#">História</a></li>
-                <li><a href="#">Apocalipse</a></li>
-            </ul>
-        </nav>
+        <button data-cabecalho__botao class="cabecalho__botao cabecalho__botao--fechar"></button>
+            <nav data-cabecalho__menu="" class="cabecalho__menu">
+                    <li class="cabecalho__item"><a href="membresia.html">Membresia</a></li>
+                    <li class="cabecalho__item"><a href="aprisco.html">Blog</a></li>
+                    <li class="cabecalho__item"><a href="#">Biblioteca</a></li>
+                    <li class="cabecalho__item"><a href="#">História</a></li>
+                    <li class="cabecalho__item"><a href="#">Apocalipse</a></li>
+            </nav>
+        
     </header>
 
     <main>
@@ -83,9 +89,11 @@
         </section>
     </main>
 
-        <footer class="rodape secao">
+        <footer class="rodape">
             <h1>Igreja Rebanho de Jesus Cristo</h1>
             <address>Av. São Joaquim, Nº, Silvio Leite</address>
         </footer>
+
+        <script type="module" src="js/home/menu.js"></script>
 </body>
 </html>
