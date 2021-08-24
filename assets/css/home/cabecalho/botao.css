@@ -12,14 +12,14 @@
 .cabecalho__botao--fechar {
     background-image: url(../../../img/Menu.svg);
     height: 1.40625rem;
-    left:20.1875rem;
+    left:86.13333333333334vw;
 }
 
 .cabecalho__botao--abrir {
     background-image: url(../../../img/Delete.png);
     position: absolute;
     top:0.875rem;
-    left:20.5rem;
+    left:87.46666666666667vw;
     height: 1.25rem;
     width: 1.25rem;
 }
