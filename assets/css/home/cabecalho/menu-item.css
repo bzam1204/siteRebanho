@@ -26,9 +26,10 @@
 }
 
 .cabecalho__item a {
+    display: inline-block;
     color: rgb(3, 34, 34);
     width:100%;
-    height: 100px;
+    line-height:auto;
 }
 
 .cabecalho__item:active :first-child {
