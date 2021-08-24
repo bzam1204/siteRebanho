@@ -1,19 +1,26 @@
 .cabecalho__menu {
     align-items: center;
-    background:linear-gradient(var(--verde-alt) , rgb(126, 221, 126));
+    background:rgb(34, 34, 34);
+    box-shadow: 2px 2px 4px rgb(3, 24, 3);
     box-sizing: border-box;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius:5px ;
     display: flex;
     flex-direction: column;
-    padding-top: .75rem;
-    position: absolute;
-    text-align: center;
-    width: 100vw;
-    transform: translate(0,-15.3125rem);
-    transition: .5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
-    z-index: -10;
+    overflow-x: hidden;
     padding-top: 3rem;
+    padding-bottom: .2rem;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    transform: translateY(-5rem);
+    transition: .5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    visibility: hidden;
+    width: 0;
 }
 
 .cabecalho__menu--abrir {
-    transform: translate(0, -1.9rem);
+    visibility: visible;
+    width: 54.666666666666664vw;
+    overflow-x: auto;
 }

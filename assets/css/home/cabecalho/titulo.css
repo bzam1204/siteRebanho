@@ -6,5 +6,5 @@
     font-weight:400;
     line-height:3rem;    
     text-align: center;
-    z-index: 10;
+    z-index: -10;
 }
