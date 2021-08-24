@@ -17,18 +17,18 @@
     background: #afa;
     border: none;
     box-shadow: -1px -1px 1px rgb(38, 77, 42);
-    padding: calc(.7rem + 1px) calc( 1rem + 1px);
 }
 
 .cabecalho__item:hover {
     background: #afa;
     border: none;
     box-shadow: -1px -1px 1px rgb(38, 77, 42);
-    padding: calc(.7rem + 1px) calc( 1rem + 1px);
 }
 
 .cabecalho__item a {
     color: rgb(3, 34, 34);
+    width:100%;
+    height: 100px;
 }
 
 .cabecalho__item:active :first-child {

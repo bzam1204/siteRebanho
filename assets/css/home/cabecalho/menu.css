@@ -17,6 +17,7 @@
     transition: .5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
     visibility: hidden;
     width: 0;
+    height: 101vh;
 }
 
 .cabecalho__menu--abrir {
